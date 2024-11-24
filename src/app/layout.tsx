@@ -1,16 +1,12 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import {Baloo_Bhai_2} from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const baloobhai2 = Baloo_Bhai_2({
+  subsets:['latin','latin-ext'],
+  weight:['400','500','600','700','800'],
+  style:['normal']
 });
 
 export const metadata: Metadata = {
@@ -26,8 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${baloobhai2.className} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
