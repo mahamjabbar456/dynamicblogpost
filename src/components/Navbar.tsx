@@ -17,28 +17,28 @@ const links = [
               label: "Home",
               href: "/",
               icon: (
-                <IconHome className="text-emerald-500 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+                <IconHome className="text-emerald-500 dark:text-emerald-500 h-5 w-5 flex-shrink-0" />
               ),
             },
             {
               label: "About",
               href: "/about",
               icon: (
-                <IconArrowRoundaboutRight className="text-emerald-500 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+                <IconArrowRoundaboutRight className="text-emerald-500 dark:text-emerald-500 h-5 w-5 flex-shrink-0" />
               ),
             },
             {
               label: "Posts",
               href: "/posts",
               icon: (
-                <IconHttpPost className="text-emerald-500 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+                <IconHttpPost className="text-emerald-500 dark:text-emerald-500 h-5 w-5 flex-shrink-0" />
               ),
             },
             {
               label: "Contact",
               href: "/contact",
               icon: (
-                <IconPhoneCall className="text-emerald-500 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+                <IconPhoneCall className="text-emerald-500 dark:text-emerald-500 h-5 w-5 flex-shrink-0" />
               ),
             },
 ];
@@ -51,7 +51,7 @@ const Navbar = () => {
     )}>
         <Sidebar open={open} setOpen={setOpen}>
             <SidebarBody className="justify-between gap-40">
-              <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
+              <div className="flex flex-col flex-1 md:overflow-y-auto md:overflow-x-hidden">
                  {open ? <Logo /> : <LogoIcon />}
                  <div>
                     {links.map((link,idx)=>(
