@@ -1,3 +1,130 @@
-[
-    
+{
+    "blogContent" : [
+  {
+    "slug": "/posts/the-future-of-ai",
+    "author": "John Doe",
+    "date": "1st December, 2024",
+    "title": "The Future of AI: Exploring the World of Artificial Intelligence",
+    "description": "Artificial Intelligence (AI) is transforming industries and reshaping the world as we know it. In this article, we explore the current state of AI, where it is headed, and the ethical considerations we must address.",
+    "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?q=80&w=1448&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "true"
+  },
+  {
+    "slug": "/posts/cybersecurity-tips",
+    "author": "Jane Smith",
+    "date": "12th November, 2024",
+    "title": "Cybersecurity Tips – Protecting Yourself in the Digital Age",
+    "description": "As cyber threats evolve, it is essential to know how to protect your personal data. This article provides tips on staying safe online, recognizing common threats, and implementing the best security practices.",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "false"
+  },
+  {
+    "slug": "/posts/tailwindcss-grid-layouts",
+    "author": "Manu Arora",
+    "date": "28th March, 2023",
+    "title": "Amazing Tailwindcss Grid Layout Examples",
+    "description": "Grids are cool, but Tailwindcss grids are cooler. In this article, we will learn how to create amazing Grid layouts with Tailwindcss and React.",
+    "image": "https://plus.unsplash.com/premium_photo-1720715202838-7bf7004f55bc?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "false"
+  },
+  {
+    "slug": "/posts/cloud-computing-advantages",
+    "author": "Robert Williams",
+    "date": "15th February, 2024",
+    "title": "The Advantages of Cloud Computing in the Modern Age",
+    "description": "Cloud computing is revolutionizing how businesses operate. Learn about its benefits, including cost reduction, scalability, and improved collaboration.",
+    "image": "https://plus.unsplash.com/premium_photo-1683836722608-60ab4d1b58e5?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "false"
+  },
+  {
+    "slug": "/posts/the-rise-of-5g",
+    "author": "Emily Taylor",
+    "date": "10th January, 2024",
+    "title": "The Rise of 5G and Its Impact on the Tech Industry",
+    "description": "5G technology is changing the way we connect and interact. Explore its impact on industries such as telecommunications, healthcare, and autonomous vehicles.",
+    "image": "https://images.unsplash.com/photo-1486475554424-2fa50cd59f18?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "false"
+  },
+  {
+    "slug": "/posts/internet-of-things-iot",
+    "author": "Oliver Green",
+    "date": "18th December, 2024",
+    "title": "The Internet of Things (IoT): Transforming Everyday Life",
+    "description": "The Internet of Things (IoT) connects devices, enabling them to share data and enhance our lives. Learn how IoT is shaping smart homes, healthcare, and manufacturing.",
+    "image": "https://media.istockphoto.com/id/1868617536/photo/internet-of-things-iot-concept-businessman-touch-iot-products-and-solutions.webp?s=1024x1024&w=is&k=20&c=50Sa3iNug6FA2__A0SJG6m9GFWBCCvaovG8AIMwdRP4=",
+    "islatest": "false"
+  },
+  {
+    "slug": "/posts/blockchain-technology-explained",
+    "author": "Samantha Lee",
+    "date": "25th November, 2024",
+    "title": "Blockchain Technology Explained: Beyond Cryptocurrency",
+    "description": "Blockchain is revolutionizing industries by offering secure and decentralized solutions. Learn how blockchain works and its applications beyond cryptocurrency, including supply chain and healthcare.",
+    "image": "https://plus.unsplash.com/premium_photo-1682464651356-3c6780eff00c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "false"
+  },
+  {
+    "slug": "/posts/augmented-reality-vs-virtual-reality",
+    "author": "Nina Carter",
+    "date": "5th October, 2024",
+    "title": "Augmented Reality vs Virtual Reality: Understanding the Difference",
+    "description": "Explore the differences between Augmented Reality (AR) and Virtual Reality (VR). Learn about their unique applications in gaming, healthcare, and education.",
+    "image": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "false"
+  },
+  {
+    "slug": "/posts/the-rise-of-quantum-computing",
+    "author": "Liam Gray",
+    "date": "22nd September, 2024",
+    "title": "The Rise of Quantum Computing: What It Means for the Future",
+    "description": "Quantum computing is poised to revolutionize industries from cryptography to AI. This article explores how quantum computers work and their potential impact on the future of technology.",
+    "image": "https://plus.unsplash.com/premium_photo-1683134027352-56d41226194e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "false"
+  },
+  {
+    "slug": "/posts/artificial-intelligence-in-healthcare",
+    "author": "David Wilson",
+    "date": "14th August, 2024",
+    "title": "Artificial Intelligence in Healthcare: Revolutionizing Patient Care",
+    "description": "AI is transforming the healthcare industry by improving diagnostic accuracy, personalizing treatments, and enabling faster drug development. Explore how AI is revolutionizing patient care.",
+    "image": "https://plus.unsplash.com/premium_photo-1699387204264-0645255b7d69?q=80&w=1378&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "false"
+  },
+  {
+    "slug": "/posts/edge-computing-explained",
+    "author": "Michael Davis",
+    "date": "1st July, 2024",
+    "title": "Edge Computing Explained: Bringing Data Processing Closer to the Source",
+    "description": "Edge computing is changing the way data is processed and transmitted. In this article, learn how edge computing can improve speed and reduce latency in IoT and AI applications.",
+    "image": "https://plus.unsplash.com/premium_photo-1708939061963-059d096aa7d0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "false"
+  },
+  {
+    "slug": "/posts/robotics-and-automation",
+    "author": "Sarah Johnson",
+    "date": "28th June, 2024",
+    "title": "Robotics and Automation: The Future of Work",
+    "description": "The rise of robotics and automation is reshaping industries from manufacturing to healthcare. Explore how automation is transforming work environments and job markets.",
+    "image": "https://plus.unsplash.com/premium_photo-1725408034958-e0b4025deda6?q=80&w=1652&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "false"
+  },
+  {
+    "slug": "/posts/the-impact-of-5g-on-telecom",
+    "author": "James Miller",
+    "date": "13th May, 2024",
+    "title": "The Impact of 5G on Telecommunications: A New Era",
+    "description": "The rollout of 5G networks is set to redefine the telecom industry. In this article, explore how 5G will change connectivity, mobile networks, and beyond.",
+    "image": "https://plus.unsplash.com/premium_photo-1664693751174-5c216023fcae?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "false"
+  },
+  {
+    "slug": "/posts/technology-and-ethics",
+    "author": "Lucas Carter",
+    "date": "25th April, 2024",
+    "title": "Technology and Ethics: Navigating the Digital Age",
+    "description": "As technology evolves, so do the ethical dilemmas it presents. This article explores the ethical considerations around AI, data privacy, and the responsibilities of tech companies. As technology evolves, so do the ethical dilemmas.",
+    "image": "https://plus.unsplash.com/premium_photo-1682002058613-557d055ffcd7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "islatest": "true"
+  }
 ]
+}

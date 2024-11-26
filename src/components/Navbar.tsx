@@ -45,10 +45,6 @@ const links = [
 const Navbar = () => {
     const [open,setOpen] = useState<boolean>(false);
   return (
-    // <AuroraBackground>
-    // <div className={cn(
-        // "rounded-md flex flex-col md:flex-row bg-black dark:bg-neutral-900 w-full flex-1 mx-auto border border-neutral-700 dark:border-neutral-700 h-screen overflow-hidden"
-    // )}>
     <div className="md:h-screen">
         <Sidebar open={open} setOpen={setOpen}>
             <SidebarBody className="justify-between gap-10">
@@ -81,7 +77,6 @@ const Navbar = () => {
         </Sidebar>
       
      </div>
-    //  </AuroraBackground>
   )
 }
 
