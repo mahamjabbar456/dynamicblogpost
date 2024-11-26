@@ -6,7 +6,6 @@ import {
      IconArrowRoundaboutRight,
      IconPhoneCall
         } from "@tabler/icons-react";
-import { cn } from "@/lib/utils";
 import { Sidebar, SidebarBody, SidebarLink } from "./ui/sidebar";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -46,11 +45,13 @@ const links = [
 const Navbar = () => {
     const [open,setOpen] = useState<boolean>(false);
   return (
-    <div className={cn(
-        "rounded-md flex flex-col md:flex-row bg-black dark:bg-neutral-900 w-full flex-1 mx-auto border border-neutral-700 dark:border-neutral-700 h-screen overflow-hidden"
-    )}>
+    // <AuroraBackground>
+    // <div className={cn(
+        // "rounded-md flex flex-col md:flex-row bg-black dark:bg-neutral-900 w-full flex-1 mx-auto border border-neutral-700 dark:border-neutral-700 h-screen overflow-hidden"
+    // )}>
+    <div className="md:h-screen">
         <Sidebar open={open} setOpen={setOpen}>
-            <SidebarBody className="justify-between gap-40">
+            <SidebarBody className="justify-between gap-10">
               <div className="flex flex-col flex-1 md:overflow-y-auto md:overflow-x-hidden">
                  {open ? <Logo /> : <LogoIcon />}
                  <div>
@@ -79,7 +80,8 @@ const Navbar = () => {
             </SidebarBody>
         </Sidebar>
       
-    </div>
+     </div>
+    //  </AuroraBackground>
   )
 }
 
@@ -113,3 +115,4 @@ export const LogoIcon = () =>{
         </Link>
     )
 }
+

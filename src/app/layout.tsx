@@ -24,8 +24,10 @@ export default function RootLayout({
       <body
         className={`${baloobhai2.className} antialiased`}
       >
+        <div className="h-screen w-full flex md:flex-row flex-col">
         <Navbar />
         {children}
+        </div>
       </body>
     </html>
   );
