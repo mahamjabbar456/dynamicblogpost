@@ -58,7 +58,7 @@ const Posts = () => {
                   />
                 </div>
                 <div className="p-4">
-                  <h2 className="font-bold my-4 text-lg text-emerald-900 dark:text-emerald-900">{post.title}</h2>
+                  <h2 className="font-bold my-4 text-lg text-emerald-900 dark:text-emerald-700">{post.title}</h2>
                   <h2 className="font-normal my-4 text-sm text-emerald-700">{post.description}</h2>
                   <div className="flex flex-row justify-between items-center mt-10">
                     <span className="text-sm text-emerald-700">{post.date}</span>
