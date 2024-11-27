@@ -41,6 +41,9 @@ const config: Config = {
           },
         },
       },
+      backgroundImage: {
+        'gradient-to-b-emerald': 'linear-gradient(to bottom, #34d399, #065f46)',
+      },
     },
   },
   plugins: [addVariablesForColors],

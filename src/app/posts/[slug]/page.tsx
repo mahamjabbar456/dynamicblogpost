@@ -171,7 +171,9 @@ const Posts = ({ params }: { params: Promise<{ slug: string }> }) => {
                 value={comment}
                 // onKeyPress={handleKeyPress}
                     ></textarea>
-                <Button onClick={handleSubmitComment}>Submit Comment</Button>
+                <Button onClick={handleSubmitComment}
+                className='relative z-10 bg-slate-800 dark:bg-slate-800 text-emerald-500 dark:text-emerald-500 border-emerald-500 dark:border-emerald-500 font-bold text-base'
+                >Submit Comment</Button>
             </div>
             <div className="w-full lg:w-[30%] flex flex-col items-center justify-center flex-grow-0 flex-shrink-0">
                 <TypewriterEffectSmooth words={heading5} className='mb-0' />
