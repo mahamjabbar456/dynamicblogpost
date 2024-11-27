@@ -16,7 +16,7 @@ const About = () => {
                 }}
             >
 
-                <div className="text-emerald-500 flex flex-col items-center justify-center px-4 pt-20 tracking-tight gap-10">
+                <div className="text-emerald-500 flex flex-col items-center justify-center px-4 pt-20 tracking-tight gap-10 pb-10">
                     
                     <AboutSection title="About Us" description="Welcome to Maham Blog, your go-to source for the latest insights, trends, and innovations in the world of technology. We are passionate about the digital frontier, exploring how today's advancements are reshaping our lives and what the future holds. From groundbreaking AI developments to cutting-edge cybersecurity solutions, we're here to keep you informed, inspired, and ahead of the curve." />
 

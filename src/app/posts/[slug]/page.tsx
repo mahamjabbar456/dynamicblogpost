@@ -133,7 +133,7 @@ const Posts = ({ params }: { params: Promise<{ slug: string }> }) => {
     const featuresList = slugPost.features.split('.').filter((feature: string) => feature.trim() !== '');
     return (
         <div className="h-screen bg-neutral-900 flex flex-col lg:flex-row  lg:items-start lg:justify-between relative w-full text-emerald-500 overflow-y-scroll overflow-x-hidden">
-            <div className='lg:w-[60%] w-full px-4 pt-4 lg:pt-8 min-h-screen flex-grow-0 flex-shrink-0'>
+            <div className='lg:w-[60%] w-full px-4 pt-4 lg:pt-8 min-h-screen flex-grow-0 flex-shrink-0 lg:pb-4 lg:ml-14'>
                 <h1 className='lg:text-5xl font-semibold text-3xl mb-4 tracking-wide'>{slugPost.title}</h1>
                 <p className='text-sm text-emerald-400'>Author of this post : <span className='text-base text-emerald-600 font-semibold'>{slugPost.author}</span></p>
                 <p className='text-sm text-emerald-400 mb-2'>Date : <span className='text-base text-emerald-600 font-semibold'>{slugPost.date}</span></p>

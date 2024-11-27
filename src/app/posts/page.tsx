@@ -42,7 +42,7 @@ const Posts = () => {
   const latestPost: postType[] = blogContent.filter((post) => post.islatest === "true");
   // const featuredPost: postType[] = blogContent.filter((post) => post.islatest !== "true");
   return (
-    <div className="h-screen bg-neutral-900 relative w-full overflow-y-scroll">
+    <div className="h-screen bg-neutral-900 relative w-full overflow-y-scroll pb-10">
       <TypewriterEffectSmooth words={words} />
       <div className="flex md:flex-row flex-col w-full items-center justify-center gap-20 overflow-x-hidden flex-wrap px-1 md:px-0">
         {latestPost.length > 0 ? (
