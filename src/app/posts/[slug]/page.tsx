@@ -18,6 +18,18 @@ type postType = {
     image: string,
     islatest: string
 };
+type postBlogType = {
+    slug: string,
+    author: string,
+    date: string,
+    title: string,
+    introduction:string,
+    description:
+    string,
+    features:string,
+    conclusion:string,
+    image: string
+};
 
 const heading1 = [
     {
@@ -59,7 +71,7 @@ const heading5 = [
 ]
 
 const Posts = ({ params }: { params: Promise<{ slug: string }> }) => {
-    const [slugPost, setSlugPost] = useState<any>(null);
+    const [slugPost, setSlugPost] = useState<postBlogType>();
     const [latestPost, setLatestPost] = useState<postType[]>([]);
     const [loading, setLoading] = useState(true);
     const [comment, setComment] = useState<string>("");
