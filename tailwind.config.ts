@@ -22,11 +22,15 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        emerald: {
+          900: '#064e3b', // Ensure the emerald shades exist
+        },
       },
       animation: {
         aurora: "aurora 60s linear infinite",
