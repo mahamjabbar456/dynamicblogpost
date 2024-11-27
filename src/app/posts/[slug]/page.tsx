@@ -89,7 +89,7 @@ const Posts = ({ params }: { params: Promise<{ slug: string }> }) => {
                 const foundPost = blogPostContent.blogPostContent.find((post) => post.slug === `/posts/${slug}`);
                 setSlugPost(foundPost);
                 // Get latest posts
-                const latest = blogContent.filter((post) => post.islatest === "true");
+                const latest:postType[] = blogContent.filter((post) => post.islatest === "true");
                 setLatestPost(latest);
 
                 setLoading(false);
