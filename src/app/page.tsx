@@ -13,7 +13,7 @@ export default function ShootingStarsAndStarsBackgroundDemo() {
         <span className="text-emerald-500 text-lg font-thin">x</span>
         <span>Dynamic Post Website</span>
       </h2>
-      <p className="relative z-10 text-lg md:leading-tight md:max-w-5xl px-5 md:px-0 text-center tracking-tight font-medium bg-clip-text text-transparent bg-gradient-to-b from-emerald-400 to-emerald-700 pb-2">Dive into the cutting-edge world of technology, where we explore the latest advancements and transformative trends shaping our future. From artificial intelligence and machine learning to cybersecurity and cloud innovations, we&apos;re your gateway to the forefront of digital evolution.</p>
+      <p className="relative z-10 text-lg md:leading-tight md:max-w-5xl px-5 md:px-0 text-center tracking-tight font-medium text-emerald-500">Dive into the cutting-edge world of technology, where we explore the latest advancements and transformative trends shaping our future. From artificial intelligence and machine learning to cybersecurity and cloud innovations, we&apos;re your gateway to the forefront of digital evolution.</p>
       <Link href={'/posts'}>
       <Button
         borderRadius="1.75rem"
