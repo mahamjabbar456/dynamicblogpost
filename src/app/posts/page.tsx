@@ -48,7 +48,7 @@ const Posts = () => {
         {latestPost.length > 0 ? (
           latestPost.map((post) => (
             <div key={post.slug} className="w-80">
-              <div className="relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-emerald-300 hover:shadow-xl border border-zinc-100">
+              <div className="relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-emerald-300 dark:bg-emerald-300 hover:shadow-xl border border-zinc-100">
                 <div className="w-full h-[200px] bg-emerald-300 rounded-tr-lg rounded-tl-lg overflow-hidden xl:aspect-w-16 xl:aspect-h-10 relative">
                   <Image
                     src={post.image}
